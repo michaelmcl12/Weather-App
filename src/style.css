@@ -5,3 +5,70 @@ body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
+
+.header{
+    background-color: #343a40;
+    color: #E9ECEF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 3px 2px 0px #495057;
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: #6C757D;
+}
+
+button{
+    border-radius: 100px;
+    border-width: 0px;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+}
+
+button img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.main{
+    background-image: url(./weatherImages/partlyCloudy.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+
+.weather {
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    background-color: #6c757dd6;
+    border-radius: 10px;
+    border-width: 0;
+    color: #E9ECEF;
+    padding: 8px;
+}
+
+.weather h1{
+    font-size: 36px;
+}
+
+.weather p{
+    font-size: 24px;
+}
